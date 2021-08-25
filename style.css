@@ -81,6 +81,7 @@ a:hover {
 .texture-paper::before {
   background: url("img/texture-paper.webp");
   background-size: 280px 280px;
+  
 }
 .b-parallax {
   background-attachment: fixed;
@@ -117,7 +118,11 @@ a:hover {
 .d-bloc p a {
   color: rgba(255, 255, 255, 0.6);
 }
-#icon-footer{
+#icon-footer1, 
+#icon-footer2, 
+#icon-footer3, 
+#icon-footer4 
+{
   color: rgb(22, 22, 22);
   font-size: 30px;
   padding-bottom: 5px;
@@ -920,4 +925,5 @@ h4 {
     margin-top: 10px;
     color: inherit;
 }
+
 
