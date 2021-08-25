@@ -118,10 +118,25 @@ a:hover {
 .d-bloc p a {
   color: rgba(255, 255, 255, 0.6);
 }
-#icon-footer1, 
-#icon-footer2, 
-#icon-footer3, 
-#icon-footer4 
+#icon-footer1
+{
+  color: rgb(22, 22, 22);
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+#icon-footer2
+{
+  color: rgb(22, 22, 22);
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+#icon-footer3
+{
+  color: rgb(22, 22, 22);
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+#icon-footer4
 {
   color: rgb(22, 22, 22);
   font-size: 30px;
