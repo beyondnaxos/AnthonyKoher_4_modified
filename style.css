@@ -117,6 +117,11 @@ a:hover {
 .d-bloc p a {
   color: rgba(255, 255, 255, 0.6);
 }
+#icon-footer{
+  color: rgb(22, 22, 22);
+  font-size: 30px;
+  padding-bottom: 5px;
+}
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -629,6 +634,9 @@ h4 {
 .white {
   color: #ffffff !important;
 }
+.gray {
+  color: #1b1b1b !important;
+}
 .portfolio-thumb {
   margin-bottom: 24px;
 }
@@ -654,7 +662,7 @@ h4 {
   background-color: #364577;
 }
 .bgc-atomic-tangerine {
-  background-color: #1f1f1f;
+  background-color: #FEFBFA;
 }
 .tc-white {
   color: #f3976c !important;
@@ -910,4 +918,6 @@ h4 {
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
+    color: inherit;
 }
+
