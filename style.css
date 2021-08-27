@@ -593,6 +593,28 @@ a {
   font-weight: 400;
   color: #575757 !important;
 }
+figcaption  {
+  margin-bottom: 30px;
+}
+blockquote p {
+  font-family: roboto;
+  font-size: 24px;
+  
+}
+blockquote p::before {
+  content: '\201C';
+}
+
+blockquote p::after {
+  content: '\201D';
+}
+blockquote .first-quote::before {
+  content: inherit;
+}
+
+blockquote .first-quote::after {
+  content: inherit;
+}
 .container {
   max-width: 1000px;
 }
@@ -735,6 +757,23 @@ h4 {
 }
 .bg-presentation {
   background-image: url("img/image-de-presentation.webp");
+}
+.soc-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: inherit;
+}
+
+.end-block-base{
+scale: 1.1;
+}
+
+.end-block{
+transform: scale(1.1);
+margin-bottom: 20px;
 }
 @media (max-width: 1024px) {
   .bloc {
@@ -941,20 +980,3 @@ h4 {
   }
 }
 
-.soc-col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
-    color: inherit;
-}
-
-.end-block-base{
-  scale: 1.1;
-}
-
-.end-block{
-  transform: scale(1.1);
-  margin-bottom: 20px;
-}
