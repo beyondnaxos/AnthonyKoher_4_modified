@@ -40,7 +40,10 @@ a:hover {
   padding-right: 0;
 }
 .bloc-lg {
-  padding: 30px 50px;
+  padding: 100px 50px;
+}
+.bloc-lg2 {
+  padding: 50px 50px;
 }
 .bloc-md {
   padding: 50px;
@@ -720,9 +723,14 @@ h4 {
   color: #f3976c !important;
   transform: translateY(-20px);
 }
+.tc-white2 {
+  color: #f1f1f1 !important;
+  transform: translateY(-20px);
+}
+
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: #2F2F2F !important;
 }
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
