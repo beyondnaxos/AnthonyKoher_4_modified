@@ -40,7 +40,7 @@ a:hover {
   padding-right: 0;
 }
 .bloc-lg {
-  padding: 100px 50px;
+  padding: 30px 50px;
 }
 .bloc-md {
   padding: 50px;
@@ -595,7 +595,9 @@ a {
 }
 figcaption  {
   margin-bottom: 30px;
+  width: 400px;
 }
+
 blockquote p {
   font-family: roboto;
   font-size: 24px;
